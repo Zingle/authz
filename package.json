@@ -1,0 +1,31 @@
+{
+  "name": "@zingle/authz",
+  "version": "0.0.1",
+  "description": "Zingle authentication library",
+  "main": "authz.mjs",
+  "scripts": {
+    "test": "node --experimental-modules node_modules/.bin/_mocha --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/authz.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/authz/issues"
+  },
+  "homepage": "https://github.com/Zingle/authz#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "peerDependencies": {
+    "passport": "*"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^8.3.2",
+    "passport": "^0.4.1",
+    "sinon": "^10.0.0"
+  }
+}
